@@ -5,6 +5,7 @@ Official PyTorch Implementation of "TuiGAN: Learning Versatile Image-to-Image Tr
 TuiGAN can be use for various computer vision tasks ranging from image style transfer to object transformation and appearance transformation:
  ![](imgs/examples.jpg)
 
+## Usage
 ###  Train
 To train TuiGAN model on two unpaired images, put the first training image under `datas/task_name/trainA` and the second training image under `datas/task_name/trainB`, and run
 
@@ -12,12 +13,12 @@ To train TuiGAN model on two unpaired images, put the first training image under
 python train.py --input_name <task_name>
 ```
 
-###  Comparison Results
+##  Comparison Results
 
-####  General Unsupervised Image-to-Image Translation
+###  General Unsupervised Image-to-Image Translation
 
-####  Image Sytle Transfer
+###  Image Sytle Transfer
 
-####  Animal Face Translation
+###  Animal Face Translation
 
-####  Painting-to-Image Translation
+###  Painting-to-Image Translation
