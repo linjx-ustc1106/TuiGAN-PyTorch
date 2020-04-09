@@ -19,9 +19,12 @@ Our code was tested with python 3.6  and PyToch 1.0.0
 To train TuiGAN model on two unpaired images, put the first training image under `datas/task_name/trainA` and the second training image under `datas/task_name/trainB`, and run
 
 ```
-python train.py --input_name <task_name>
+python train.py --input_name <input_name> --root <datas/task_name>
 ```
-
+For example, 
+```
+python train.py --input_name apple --root datas/apple
+```
 ##  Comparison Results
 
 ###  General Unsupervised Image-to-Image Translation
