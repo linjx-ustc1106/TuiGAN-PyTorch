@@ -6,7 +6,7 @@ TuiGAN can be use for various computer vision tasks ranging from image style tra
  ![](imgs/examples.jpg)
 
 ###  Train
-To train TuiGAN model on two unpaired images, put the first training image under data/task_name/trainA and the second training image under data/task_name/trainB, and run
+To train TuiGAN model on two unpaired images, put the first training image under `datas/task_name/trainA` and the second training image under `datas/task_name/trainB`, and run
 
 ```
 python train.py --input_name <task_name>
