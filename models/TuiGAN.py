@@ -169,7 +169,6 @@ def train_single_scale(netD,netG,reals,Gs,Zs,in_s,NoiseAmp, netD2,netG2,reals2,G
                     c_prev = torch.full([opt.bsz,opt.nc_z,opt.nzx,opt.nzy], 0, device=opt.device)
                     z_prev = torch.full([opt.bsz,opt.nc_z,opt.nzx,opt.nzy], 0, device=opt.device)
                     z_prev = m_noise(z_prev)
-                    opt.noise_amp = opt.noise_amp
                     
                     prev2 = torch.full([opt.bsz,opt.nc_z,opt.nzx,opt.nzy], 0, device=opt.device)
                     in_s2 = prev2
@@ -177,7 +176,6 @@ def train_single_scale(netD,netG,reals,Gs,Zs,in_s,NoiseAmp, netD2,netG2,reals2,G
                     c_prev2 = torch.full([opt.bsz,opt.nc_z,opt.nzx,opt.nzy], 0, device=opt.device)
                     z_prev2 = torch.full([opt.bsz,opt.nc_z,opt.nzx,opt.nzy], 0, device=opt.device)
                     z_prev2 = m_noise(z_prev2)
-                    opt.noise_amp2 = opt.noise_amp2
                 else:
                     prev2, c_prev2 = cycle_rec(Gs2,Gs,Zs2,reals2,NoiseAmp2,in_s2,m_noise,m_image,opt,epoch)
                     prev, c_prev = cycle_rec(Gs,Gs2,Zs,reals,NoiseAmp,in_s,m_noise,m_image,opt,epoch)
