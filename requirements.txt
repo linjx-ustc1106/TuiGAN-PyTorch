@@ -1,7 +1,0 @@
-matplotlib
-scikit-image
-scikit-learn
-scipy
-numpy
-torch
-torchvision
