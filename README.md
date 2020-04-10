@@ -1,5 +1,5 @@
 # TuiGAN-PyTorch
-Official PyTorch Implementation of "TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images"
+Official PyTorch Implementation of "[TuiGAN: Learning Versatile Image-to-Image Translation with Two Unpaired Images](https://arxiv.org/abs/2004.04634)"
 
 ## TuiGAN's applications
 TuiGAN can be use for various computer vision tasks ranging from image style transfer to object transformation and appearance transformation:
