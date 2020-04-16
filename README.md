@@ -29,7 +29,7 @@ python train.py --input_name apple --root datas/apple
 
 ###  General Unsupervised Image-to-Image Translation
 ![](imgs/comparisons.jpg)
-###  Image Sytle Transfer
+###  Image Style Transfer
 ![](imgs/style.jpg)
 ###  Animal Face Translation
 ![](imgs/dog.jpg)
