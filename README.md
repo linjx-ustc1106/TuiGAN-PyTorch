@@ -35,3 +35,13 @@ python train.py --input_name apple --root datas/apple
 ![](imgs/dog.jpg)
 ###  Painting-to-Image Translation
 ![](imgs/trees.jpg)
+
+##  More Results
+
+###  Art Style Transfer 
+![](imgs/artstyle.jpg)
+###  Photorealistic Style Transfer 
+![](imgs/photostyle.jpg)
+###  Animal Face Translation
+![](imgs/animalface.jpg)
+
