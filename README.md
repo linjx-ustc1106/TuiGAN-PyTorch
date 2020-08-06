@@ -43,5 +43,5 @@ python train.py --input_name apple --root datas/apple
 ###  Photorealistic Style Transfer 
 ![](imgs/photostyle.jpg)
 ###  Animal Face Translation
-![](imgs/animalface.jpg)
+<img src="imgs/animalface.jpg" width="50%" />
 
