@@ -39,7 +39,7 @@ python train.py --input_name apple --root datas/apple
 ##  More Results
 
 ###  Art Style Transfer 
-![](imgs/artstyle.jpg)
+<img src="imgs/artstyle.jpg" width="50%" />
 ###  Photorealistic Style Transfer 
 ![](imgs/photostyle.jpg)
 ###  Animal Face Translation
