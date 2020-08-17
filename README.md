@@ -13,7 +13,7 @@ TuiGAN can be use for various computer vision tasks ranging from image style tra
 python -m pip install -r requirements.txt
 ```
 
-Our code was tested with python 3.6  and PyToch 1.0.0
+Our code was tested with python 3.6  and PyToch 1.0.0 or 1.2.0
 
 ###  Train
 To train TuiGAN model on two unpaired images, put the first training image under `datas/task_name/trainA` and the second training image under `datas/task_name/trainB`, and run
